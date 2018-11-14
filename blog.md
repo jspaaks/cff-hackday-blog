@@ -5,6 +5,7 @@ Authors:
 
 - Jurriaan H. Spaaks, Netherlands eScience Center <a href="https://orcid.org/0000-0002-7064-4069"><img src="orcid.png" style="width:14px"></a>
 - Stefan Verhoeven, Netherlands eScience Center <a href="https://orcid.org/0000-0002-5821-2060"><img src="orcid.png" style="width:14px"></a>
+- Tom Klaver, Netherlands eScience Center
 - Jason Maassen, Netherlands eScience Center <a href="https://orcid.org/0000-0002-8172-4865"><img src="orcid.png" style="width:14px"></a>
 - Stephan Druskat, Humboldt Universität zu Berlin <a href="https://orcid.org/0000-0003-4925-7248"><img src="orcid.png" style="width:14px"></a>
 
