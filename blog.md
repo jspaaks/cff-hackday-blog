@@ -43,7 +43,7 @@ By offering attractive product pages with relevant information, and by following
 
 So let's say that a visitor has used Google to look for a solution to a problem they are having, and found one of our product pages. They liked what they saw there, but now they want to give our software a whirl. Where should they start? For this, we added a prominent _Get started_ button, which links to additional materials that help first time users to get started with the software. Examples of such materials include tutorials (e.g. PDF documents), interactive examples (e.g. on [codeocean.com](https://codeocean.com/), [mybinder.org](https://mybinder.org/), or [renkulab.io](https://renkulab.io/)), and video walkthroughs (e.g. demonstrating how to use a graphical interface to accomplish a given task). Naturally, creating such additional materials requires an extra effort, sometimes considerably so, but good entry level documentation can really be valuable in attracting users.
 
-By designing the product pages in this way, we feel that the findability of software is reasonably well covered. Next, let's take a look at citability, specifically, the _Cite this software_ element (Figure 2):
+By designing the product pages in this way, we feel that the findability of software is reasonably well covered. Next, let's take a look at citability, specifically, the _Cite this software_ element (Figure 3):
 
 ![Figure 3. 'Cite this software' element][cite-this-software]
 Figure 3. _'Cite this software' element._
@@ -62,7 +62,7 @@ This simple workflow provides basic citability, meaning that without doing anyth
 
 After designing and prototyping the frontend, we started work on the  backend so we could feed the frontend with the necessary data. We realized that much of the data that we needed was already available from sources such as Zenodo, GitHub, [Zotero](https://www.zotero.org/) (the reference manager we use to keep track of our organization's output) and so forth. Some of these data sources provide access to their data via an API, but for some others, the data were available but not in a very structured way. As an example, we wanted to include the contents of [our blog](https://blog.esciencecenter.nl/), which uses the Medium publishing platform. As far as we could determine, the blog posts could not be retrieved via the API, so we ended up writing a simple Python script using the awesome [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/) library to harvest this data. Similarly, we wanted to include project descriptions from [https://www.esciencecenter.nl/projects](https://www.esciencecenter.nl/projects) which were not accessible via an API, so again we used BeautifulSoup to harvest what we needed.
 
-With the data harvesting mechanisms in place, we were left with designing a system that would allow our engineers to create, edit, and delete product pages. To make life as easy as possible for them, we chose to use a web form for this. For lack of a better name, we refer to the web form simply as the _Admin interface_ (Figure 3).
+With the data harvesting mechanisms in place, we were left with designing a system that would allow our engineers to create, edit, and delete product pages. To make life as easy as possible for them, we chose to use a web form for this. For lack of a better name, we refer to the web form simply as the _Admin interface_ (Figure 4).
 
 ![Figure 4. Admin interface to a product page.][xenon-on-the-rsd-admin]
 Figure 4. _Admin interface to a product page._
