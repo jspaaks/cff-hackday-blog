@@ -37,7 +37,7 @@ A third reason Google will like your site better is if it ties into the rest of 
 <!-- something about mentions here -->
 
 ![Figure 2. context][mentions-and-projects]
-Figure 2. _"These sections help visitors judge the software by placing it within the relevant (scientific) context. For the live version, go <a href='https://research-software.nl/software/kernel-tuner'>here</a>."_
+Figure 2. _These sections help visitors judge the software by placing it within the relevant (scientific) context. For the live version, go <a href='https://research-software.nl/software/kernel-tuner'>here</a>._
 
 By offering attractive product pages with relevant information, and by following Google's SEO guidelines, the Research Software Directory thus improves the findability of our software, for machines as well as for humans.
 
