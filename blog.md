@@ -32,7 +32,12 @@ For example, most people nowadays use <span style="text-decoration:line-through"
 
 Another simple reason Google will like your site better is if your website presents relevant information in a clear and concise manner. To help with this, we try to make it as easy as possible for humans to consume the page's content. We do this by using inclusive language as much as possible when describing the software, and by steering clear of acronyms.
 
-A third reason Google will like your site better is if it ties into the rest of the Internet. Basically, their reasoning is: if the content on a web site matters, it should link and be linked; it should not be separate from the rest of the world. For this reason, the software on each product page is presented along with the scientific/social context it lives in. We do so by including links to various types of resources such as presentations, blogs, YouTube videos, whitepapers, tweets, posters, peer-reviewed papers, as well as descriptions of projects in which the software was applied.
+A third reason Google will like your site better is if it ties into the rest of the Internet. Basically, their reasoning is: if the content on a web site matters, it should link and be linked; it should not be separate from the rest of the world. For this reason, the software on each product page is presented along with the scientific/social context it lives in. We do so by including links to various types of resources such as presentations, blogs, YouTube videos, whitepapers, tweets, posters, peer-reviewed papers, as well as descriptions of projects in which the software was applied (Figure 2).
+
+<!-- something about mentions here -->
+
+![Figure 2. context][mentions-and-projects]
+Figure 2. _"These sections help visitors judge the software by placing it within the relevant (scientific) context. For the live version, go <a href='https://research-software.nl/software/kernel-tuner'>here</a>."_
 
 By offering attractive product pages with relevant information, and by following Google's SEO guidelines, the Research Software Directory thus improves the findability of our software, for machines as well as for humans.
 
@@ -40,8 +45,8 @@ So let's say that a visitor has used Google to look for a solution to a problem 
 
 By designing the product pages in this way, we feel that the findability of software is reasonably well covered. Next, let's take a look at citability, specifically, the _Cite this software_ element (Figure 2):
 
-![Figure 2. 'Cite this software' element][cite-this-software]
-Figure 2. _'Cite this software' element._
+![Figure 3. 'Cite this software' element][cite-this-software]
+Figure 3. _'Cite this software' element._
 
 We chose to make the _Cite this software_ element quite a prominent part of the product page. We did so because it emphasizes that software is something that you can, and sometimes should, cite. Furthermore, we wanted to make citing as easy as possible. The importance of the latter reason should not be underestimated: citing research software is intrinsically more difficult that citing, say, research papers. For example, a person wanting to cite software may face questions like:
 - What is the name of the software (given that it's probably not 
@@ -59,8 +64,8 @@ After designing and prototyping the frontend, we started work on the  backend so
 
 With the data harvesting mechanisms in place, we were left with designing a system that would allow our engineers to create, edit, and delete product pages. To make life as easy as possible for them, we chose to use a web form for this. For lack of a better name, we refer to the web form simply as the _Admin interface_ (Figure 3).
 
-![Figure 3. Admin interface to a product page.][xenon-on-the-rsd-admin]
-Figure 3. _Admin interface to a product page._
+![Figure 4. Admin interface to a product page.][xenon-on-the-rsd-admin]
+Figure 4. _Admin interface to a product page._
 
 For each input field, the Admin interface provides brief instructions on what to enter, so our engineers know what is expected of them. The Admin interface also performs formal form validation against the [schema](https://github.com/research-software-directory/backend/tree/fb586b3bde46f3b067f6bdbb98c54d65cc9b88b3/schemas), such that the data that ends up being fed to the frontend is predictable, which in turn leads to cleaner code in the frontend.
 
@@ -68,8 +73,8 @@ Most of the required fields need to be filled out only once; for example, the <s
 
 To summarize, here is an overview of the complete system:
 
-![Figure 4. Data sources][data-sources]
-Figure 4. _System overview._
+![Figure 5. Data sources][data-sources]
+Figure 5. _System overview._
 
 # Final remarks
 
@@ -79,6 +84,8 @@ Our instance of the Research Software Directory lives at https://www.research-so
 
 [rsd-product-page]: xenon-on-the-rsd.png "Research
 Software Directory product page."
+
+[mentions-and-projects]: kernel-tuner-mentions-and-projects.png "These sections help visitors judge the software by placing it within the relevant (scientific) context."
 
 [cite-this-software]: rsd-xenon-cite-this-software-block.png "'Cite this
 software' element."
