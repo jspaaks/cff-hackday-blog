@@ -19,7 +19,7 @@ A Research Software Directory is a kind of content management system, tailored t
 ![Figure 1. Research Software Directory product page][rsd-product-page]
 Figure 1. _Research Software Directory product page. For the live version, go [here](https://research-software.nl/software/xenon)._
 
-So what makes a good product page? Ultimately, we think it should promote adoption of the software by others. To better understand what that meant in practice, we enlisted the help of communication and design agency [Silo](https://www.siloagency.com/en/), and quickly realized that adoption of software is actually preceeded by a few other steps, as follows.
+So what makes a good product page? Ultimately, we think it should promote adoption of the software by others. To better understand what that meant in practice, we enlisted the help of communication and design agency [Silo](https://www.siloagency.com/en/), and quickly realized that adoption of software is actually preceded by a few other steps, as follows.
 
 1. First, people need to be able to find the software,
 1. Then they need to judge whether what they found can potentially contribute to solving to their problem,
