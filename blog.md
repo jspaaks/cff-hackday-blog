@@ -12,7 +12,7 @@ Authors:
 
 # The Research Software Directory and how it promotes software citation
 
-The Netherlands eScience Center currently employs about 50 Research Software Engineers who work side-by-side with domain scientists to address technological challenges that need to be overcome in order to answer the research questions. As a result, much of the scientific output of our institute comes in the form of software. To show the outside world that our work matters, we wanted a mechanism to improve transparency of our organization, some sort of virtual shop window if you will. This ultimately resulted in development of what we call the _Research Software Directory_.
+The Netherlands eScience Center currently employs about 50 Research Software Engineers who work side-by-side with domain scientists to address technological challenges that need to be overcome in order to answer the research questions. As a result, much of the scientific output of our institute comes in the form of software. To show the outside world that our work matters, we wanted a mechanism to improve transparency of our organization, some sort of virtual shop window if you will. This ultimately resulted in development of what we call the [_Research Software Directory_](https://github.com/research-software-directory/research-software-directory).
 
 A Research Software Directory is a kind of content management system, tailored to software. A Research Software Directory aims to improve the _findability_, _citability_, and _reproducibility_ of the software advertised in it. In practice, this entails creating a so-called _product page_ for each software package which we want to showcase. A product page presents a given software package along with its relevant context (Figure 1).
 
