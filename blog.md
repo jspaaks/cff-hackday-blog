@@ -45,7 +45,7 @@ By designing the product pages in this way, we feel that the findability of soft
 
 ## Citability
 
-We chose to make the _Cite this software_ element (Figure 3) quite a prominent part of the product page. We did so because it emphasizes that software is something that you can, and sometimes should, cite. Furthermore, we wanted to make citing as easy as possible. The importance of the latter reason should not be underestimated: citing research software is intrinsically more difficult that citing, say, research papers. For example, a person wanting to cite software may face questions like:
+We chose to make the _Cite this software_ element (Figure 3) quite a prominent part of the product page. We did so because it emphasizes that software is something that you can, and [indeed should](https://cite.research-software.org), cite. Furthermore, we wanted to make citing as easy as possible. The importance of the latter reason should not be underestimated: citing research software is intrinsically more difficult that citing, say, research papers. For example, a person wanting to cite software may face questions like:
 - What is the name of the software (given that it's probably not 
 ``my_scripts/run.m`` or ``analysis.py``)?
 - What label should I use to uniquely identify the version of the software?
