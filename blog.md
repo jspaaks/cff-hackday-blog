@@ -69,7 +69,7 @@ Figure 4. _Admin interface to a product page._
 
 For each input field, the Admin interface provides brief instructions on what to enter, so our engineers know what is expected of them. The Admin interface also performs formal form validation against the [schema](https://github.com/research-software-directory/backend/tree/fb586b3bde46f3b067f6bdbb98c54d65cc9b88b3/schemas), such that the data that ends up being fed to the frontend is predictable, which in turn leads to cleaner code in the frontend.
 
-Most of the required fields need to be filled out only once; for example, the <span style="font-family:monospace">conceptDOI</span>, repository URLs, the name of the package, and the descriptions will not change very often. Some other fields however are changeable, for example the list of contributors may grow or there may be additional mentions. Generally speaking, our engineers revisit their pages every couple of months or so, to see if anything needs to be added.
+Most of the required fields need to be filled in only once; for example, the <span style="font-family:monospace">conceptDOI</span>, repository URLs, the name of the package, and the descriptions will not change very often. Some other fields however are changeable, for example the list of contributors may grow or there may be additional mentions. Generally speaking, our engineers revisit their pages every couple of months or so, to see if anything needs to be added.
 
 # Final remarks
 
